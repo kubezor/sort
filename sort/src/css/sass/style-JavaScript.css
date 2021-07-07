@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.n {
+  text-decoration: none;
+  color: #000;
+}
+
+header {
+  background-color: gray;
+  height: 177px;
+  font-size: 0.8em;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-width: 900px;
+}
+
+.main, .logo, .menubar, .site_contener, .footer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  width: 880px;
+  padding-bottom: 40px;
+}
+
+h1, h2 {
+  font: normal 300% 'century gothic', arial, sans-serif;
+  margin: 0 0 0 9px;
+}
+
+.logo_text {
+  padding: 22px 0 0 0;
+  color: #000000;
+  letter-spacing: 0.1em;
+  color: #000;
+  -webkit-text-decoration: nonecolor;
+          text-decoration: nonecolor;
+  text-decoration: none;
+  padding: 22px 0 0 0;
+  letter-spacing: 0.1em;
+}
+
+.logo_text:hover {
+  padding: 22px 0 0 0;
+  color: #000000;
+  letter-spacing: 0.1em;
+}
+
+h2 {
+  font-size: 0.9em;
+  padding: 4px 0 0 0;
+  color: red;
+}
+
+.menubar {
+  width: 1300px;
+  height: 35px;
+  background-color: gray;
+}
+
+ul.menu {
+  float: century;
+}
+
+li {
+  float: left;
+  padding: 0 0 0 20px;
+  list-style: none;
+  margin: 1px 2px 0 0;
+}
+
+li a {
+  font: normal 100% 'century gothic', arial, sans-serif;
+  display: block;
+  height: 30px;
+  padding: 6px 35px 5px 28px;
+}
+
+li.selected a {
+  color: black;
+}
+
+li a:hover {
+  color: white;
+}
+
+.dropbtn {
+  background-color: #3e4a52;
+  color: white;
+  padding: 16px 160px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #464353;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  min-width: 160px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.info-tabcontent {
+  display: block;
+  color: black;
+  padding: 0px 25px;
+  text-decoration: none;
+}
+
+
+.dropdown-content-img {
+  display: block;
+  max-width: 430px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  margin: century;
+}
+
+/* ------------------------ */
+
+@import url("https://fonts.googleapis.com/css?family=Anton");
+body {
+  background-color: #2e282a;
+  font-family: "Anton", sans-serif;
+}
+.container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  transform: rotateX(-90deg);
+  transform-style: preserve-3d;
+}
+.numbers {
+  height: 200px;
+  width: 50px;
+  padding: 0;
+  position: relative;
+  margin: auto;
+  list-style-type: none;
+  transform-style: preserve-3d;
+  transform: rotateY(90deg);
+  transition: all ease 0.5s;
+  display: inline-block;
+}
+.numbers li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 50%;
+  width: 0;
+  transform-style: preserve-3d;
+  transform-origin: bottom;
+  box-sizing: border-box;
+}
+.numbers li span {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 5rem;
+  line-height: 50px;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transform: translateX(-50%) translateY(-40px) rotateX(90deg) rotate(90deg);
+}
+.numbers li:nth-child(1) {
+  transform: rotate(0deg);
+}
+.numbers li:nth-child(2) {
+  transform: rotate(-36deg);
+}
+.numbers li:nth-child(3) {
+  transform: rotate(-72deg);
+}
+.numbers li:nth-child(4) {
+  transform: rotate(-108deg);
+}
+.numbers li:nth-child(5) {
+  transform: rotate(-144deg);
+}
+.numbers li:nth-child(6) {
+  transform: rotate(-180deg);
+}
+.numbers li:nth-child(7) {
+  transform: rotate(-216deg);
+}
+.numbers li:nth-child(8) {
+  transform: rotate(-252deg);
+}
+.numbers li:nth-child(9) {
+  transform: rotate(-288deg);
+}
+.numbers li:nth-child(10) {
+  transform: rotate(-324deg);
+}
+.numbers.hours li span {
+  color: #76b041;
+}
+.numbers.minutes li span {
+  color: #17bebb;
+}
+.numbers.seconds li span {
+  color: #ffc914;
+}
+.asa {
+  padding: 300px 100px;
+}
